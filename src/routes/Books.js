@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <h2>Home Page</h2>
+    <h2>Books Page</h2>
     {/* Contenido de la página de inicio */}
   </div>
 );
