@@ -21,7 +21,7 @@ const BookForm = ({ onAdd }) => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Title"
+        placeholder="Book Title"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
