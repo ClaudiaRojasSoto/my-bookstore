@@ -9,7 +9,7 @@ const Navigation = () => (
         {/* Enlace a la página de inicio */}
       </li>
       <li>
-        <Link to="/categories">Authors</Link>
+        <Link to="/categories">Categories</Link>
         {/* Enlace a la página de categorías */}
       </li>
     </ul>
