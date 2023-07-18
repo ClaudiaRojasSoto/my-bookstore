@@ -6,11 +6,11 @@ const Navigation = () => (
     <ul>
       <li>
         <Link to="/">Books</Link>
-        {/* Enlace a la página de inicio */}
+        {/* Link to the initial page */}
       </li>
       <li>
         <Link to="/categories">Categories</Link>
-        {/* Enlace a la página de categorías */}
+        {/* Link to the category page */}
       </li>
     </ul>
   </nav>
