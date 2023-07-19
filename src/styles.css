@@ -112,6 +112,11 @@ nav ul li a {
   color: #4386bf;
 }
 
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
 .button {
   width: 3.375rem;
   height: 1.188rem;
@@ -127,6 +132,13 @@ nav ul li a {
   border: none;
   padding: 0;
   cursor: pointer;
+  text-align: center;
+}
+
+.buttons .button:not(:last-child)::after {
+  content: '|';
+  margin: 0 10px;
+  color: #e8e8e8;
 }
 
 form {
