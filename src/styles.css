@@ -141,6 +141,39 @@ nav ul li a {
   color: #e8e8e8;
 }
 
+.circle {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  margin-right: 1rem;
+}
+
+button.button-update {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 0.813rem 0 0.188rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  font-size: 0.813rem;
+  cursor: pointer;
+}
+
+.CircularProgressbar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.book-content h3 {
+  font-size: 22px;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
 form {
   display: flex;
   gap: 10px;
@@ -156,6 +189,6 @@ form input {
 form button {
   padding: 10px 20px;
   border: none;
-  background-color: #333;
+  background-color: #0290ff;
   color: #fff;
 }
