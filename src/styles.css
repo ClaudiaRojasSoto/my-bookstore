@@ -23,7 +23,7 @@ body {
 }
 
 nav {
-  padding: 24px 4%;
+  padding: 24px 6%;
   background-color: #fff;
   border-bottom: 1px solid #e8e8e8;
   display: flex;
@@ -72,13 +72,13 @@ nav ul li a {
 .lesson-panel {
   width: 75rem;
   height: 10.625rem;
-  margin: 2.313rem 6.25rem 0;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  margin: 2.313rem 5.5rem 0 5.5rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
   display: flex;
   align-items: center;
+  padding-left: 20px;
 }
 
 .book-content {
