@@ -11,15 +11,16 @@ const Book = ({ book }) => {
   };
 
   return (
-    <div>
-      <h3>{book.title}</h3>
-      <p>
-        Author:
-        {book.author}
-      </p>
-      <button type="button" onClick={handleDelete}>
-        Delete
-      </button>
+    <div className="lesson-panel">
+      <div className="book-content">
+        <h3>{book.title}</h3>
+        <p className="author">
+          {book.author}
+        </p>
+        <button className="button" type="button" onClick={handleDelete}>
+          Delete
+        </button>
+      </div>
     </div>
   );
 };
