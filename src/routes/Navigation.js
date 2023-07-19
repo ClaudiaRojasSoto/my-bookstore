@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { CgProfile } from 'react-icons/cg';
 
 const Navigation = () => (
   <nav>
+    <h1 className="title-app">Bookstore CMS</h1>
     <ul>
       <li>
         <Link to="/">Books</Link>
@@ -13,6 +15,9 @@ const Navigation = () => (
         {/* Link to the category page */}
       </li>
     </ul>
+    <div className="profile">
+      <CgProfile className="icon" />
+    </div>
   </nav>
 );
 
