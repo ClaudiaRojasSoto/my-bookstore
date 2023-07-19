@@ -81,6 +81,8 @@
 -   **Development Server**
 -   **JavaScript Functionality**
 -   **Gitflow**
+-   **API integration**
+-   **CSS Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,8 +157,6 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--   **API integration**
--   **CSS Styling**
 -   **Testing**
 -   **Deployment**
 
