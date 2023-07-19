@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './routes/Navigation';
 import BookList from './components/BookList';
 import BookForm from './components/BookForm';
+import './styles.css';
 
 const App = () => {
   const [books, setBooks] = React.useState([]);
@@ -17,7 +18,7 @@ const App = () => {
 
   return (
     <Router>
-      <div>
+      <div className="page">
         <Navigation />
         <Routes>
           <Route path="/" element={<BookList books={books} onDelete={handleDeleteBook} />} />
