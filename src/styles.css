@@ -28,7 +28,7 @@ body {
   align-items: center;
 }
 
-nav {
+.nav-container {
   display: flex;
   align-items: center;
   height: 5.938rem;
@@ -355,4 +355,130 @@ button.button-update {
   border: none;
   cursor: pointer;
   font-family: 'Roboto Slab', sans-serif;
+}
+
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+  }
+
+  .page {
+    width: 100%;
+    box-shadow: none;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 3.125rem;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .title-app {
+    margin-left: 6rem;
+  }
+
+  .log-in {
+    color: #0090ff;
+    margin-right: 6rem;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .container {
+    max-width: calc(600px + (2 * var(--gutter)));
+  }
+
+  .lesson-panel {
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .book-content {
+    width: 100%;
+    align-items: center;
+    order: 1;
+    padding-bottom: 3rem;
+  }
+
+  .author {
+    display: flex;
+    justify-content: center;
+  }
+
+  .type {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons .button:not(:last-child)::after {
+    display: none;
+  }
+
+  .advance {
+    display: none;
+  }
+
+  .chapter-container {
+    margin-right: 0;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .form-container {
+    border-top: 1px solid #e8e8e8;
+    margin: 2rem 6.25rem;
+  }
+
+  .form-title {
+    margin-left: 1rem;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-form-title,
+  .book-form-author {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .form-button {
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .CircularProgressbar {
+    display: none;
+  }
 }
