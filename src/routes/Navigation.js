@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { CgProfile } from 'react-icons/cg';
 
 const Navigation = () => (
-  <nav>
+  <nav className="nav-container">
     <h1 className="title-app">Bookstore CMS</h1>
     <ul className="nav-list">
       <li>
