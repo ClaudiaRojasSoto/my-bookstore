@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CgProfile } from 'react-icons/cg';
+import '../styles.css';
 
 const Navigation = () => (
-  <nav className="nav-container">
-    <h1 className="title-app">Bookstore CMS</h1>
-    <ul className="nav-list">
-      <li>
-        <Link className="link" to="/">Books</Link>
+  <nav className="nav-container flex">
+    <h1 className="title-app  fontsty-normal montserrat">Bookstore CMS</h1>
+    <ul className="nav-list flex">
+      <li className="flex montserrat">
+        <Link className="link montserrat" to="/">Books</Link>
         {/* Link to the initial page */}
       </li>
       <li>
