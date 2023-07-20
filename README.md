@@ -88,7 +88,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can see a Demo here: Soon!.
+> You can see a Demo [here](https://bookstore-flq3.onrender.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
