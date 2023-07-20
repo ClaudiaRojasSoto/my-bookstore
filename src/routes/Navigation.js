@@ -5,17 +5,17 @@ import { CgProfile } from 'react-icons/cg';
 const Navigation = () => (
   <nav>
     <h1 className="title-app">Bookstore CMS</h1>
-    <ul>
+    <ul className="nav-list">
       <li>
-        <Link to="/">Books</Link>
+        <Link className="link" to="/">Books</Link>
         {/* Link to the initial page */}
       </li>
       <li>
-        <Link to="/categories">Categories</Link>
+        <Link className="link" to="/categories">Categories</Link>
         {/* Link to the category page */}
       </li>
     </ul>
-    <div className="profile">
+    <div className="log-in">
       <CgProfile className="icon" />
     </div>
   </nav>
