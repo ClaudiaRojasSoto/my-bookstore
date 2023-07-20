@@ -13,43 +13,43 @@ const Book = ({ book }) => {
   };
 
   return (
-    <div className="lesson-panel">
-      <div className="book-content">
+    <div className="lesson-panel flex">
+      <div className="book-content flex">
         <div className="book-content-details">
-          <p className="type">Literature</p>
-          <h3>{book.title}</h3>
-          <p className="author">
+          <p className="type fontsty-normal montserrat">Literature</p>
+          <h3 className="title fontsty-normal montserrat">{book.title}</h3>
+          <p className="author fontsty-normal roboto">
             {book.author}
           </p>
         </div>
         <div className="buttons">
-          <button className="comment" type="button">
+          <button className="comment fontsty-normal roboto" type="button">
             Comments
           </button>
-          <button className="remove" type="button" onClick={handleDelete}>
+          <button className="remove fontsty-normal roboto" type="button" onClick={handleDelete}>
             Remove
           </button>
-          <button className="edit" type="button">
+          <button className="edit fontsty-normal roboto" type="button">
             Edit
           </button>
         </div>
       </div>
-      <div className="advance">
+      <div className="advance flex">
         <div className="circle">
           <CircularProgressbar />
         </div>
         <div className="advance-percent-completed">
-          <p className="advance-percent">0%</p>
-          <p className="advance-completed">Completed</p>
+          <p className="advance-percent fontsty-normal montserrat">0%</p>
+          <p className="advance-completed fontsty-normal montserrat">Completed</p>
         </div>
       </div>
-      <div className="chapter-container">
+      <div className="chapter-container flex center">
         <div className="chapter-section">
-          <p className="current-chapter">CURRENT CHAPTER</p>
-          <p className="chapter">Chapter 1</p>
+          <p className="current-chapter fontsty-normal roboto">CURRENT CHAPTER</p>
+          <p className="chapter fontsty-normal roboto">Chapter 1</p>
         </div>
         <div>
-          <button className="button-update" type="button">
+          <button className="button-update roboto" type="button">
             UPDATE PROGRESS
           </button>
         </div>
