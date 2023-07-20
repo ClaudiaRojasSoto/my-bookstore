@@ -15,35 +15,38 @@ const Book = ({ book }) => {
   return (
     <div className="lesson-panel">
       <div className="book-content">
-        <h3>{book.title}</h3>
-        <p className="author">
-          {book.author}
-        </p>
+        <div className="book-content-details">
+          <p className="type">Literature</p>
+          <h3>{book.title}</h3>
+          <p className="author">
+            {book.author}
+          </p>
+        </div>
         <div className="buttons">
-          <button className="button" type="button">
+          <button className="comment" type="button">
             Comments
           </button>
-          <button className="button" type="button" onClick={handleDelete}>
+          <button className="remove" type="button" onClick={handleDelete}>
             Remove
           </button>
-          <button className="button" type="button">
+          <button className="edit" type="button">
             Edit
           </button>
         </div>
       </div>
-      <div>
+      <div className="advance">
         <div className="circle">
           <CircularProgressbar />
         </div>
-        <div>
-          <p>0%</p>
-          <p>Completed</p>
+        <div className="advance-percent-completed">
+          <p className="advance-percent">0%</p>
+          <p className="advance-completed">Completed</p>
         </div>
       </div>
-      <div>
-        <div>
-          <p>CURRENT CHAPTER</p>
-          <p>Chapter 1</p>
+      <div className="chapter-container">
+        <div className="chapter-section">
+          <p className="current-chapter">CURRENT CHAPTER</p>
+          <p className="chapter">Chapter 1</p>
         </div>
         <div>
           <button className="button-update" type="button">
