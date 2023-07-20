@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="page">
+      <div className="page center">
         <Navigation />
         <Routes>
           <Route path="/" element={<BookList books={books} onDelete={handleDeleteBook} />} />
